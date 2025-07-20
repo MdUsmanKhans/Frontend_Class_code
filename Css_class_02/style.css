@@ -23,3 +23,15 @@ h1 {
     font-size: 200%;
     
 }
+
+/* css m size dene k different methods hote hien... */
+/* 01 px pixels hmare pc or mob or tab k screen k hisab se hota h */
+/* 02 em em hum srf text k lye nh width ki size k lye bh use krte hien */
+/* 03 % ye bh bakio k jese hi simple percenatge de k size define krne m use hota h */
+
+/* 16px ye hamesha default size hota h
+ye kch example h */
+/* 16px = 1em = 100% */
+/* 32px = 2em = 200% */
+/* 40px = 2.5em = 250% */
+/* teen method hote use apke upr ap jo uuse krna chaye use kr sakte size k lye na srf text k lye bakio k lye bh height,width,padding,margn etc.. */
