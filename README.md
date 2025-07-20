@@ -1,6 +1,6 @@
 # Frontend Class Code
 
-This repository contains frontend practice code starting from CSS.
+This repository contains frontend class code starting from CSS.
 
 ## 📁 Folders
 
