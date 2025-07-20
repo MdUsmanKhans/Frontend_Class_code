@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=2.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
+    <!-- internal css  -->
+    <style>
+        p {
+            color: orange;
+        }
+.heading_2{
+    color: red;
+}
+#Home{
+color: green;
+}
+    </style>
+</head>
+<body>
+                                             <!-- inline css start -->
+<!--jis pr css apply krni hogi usi pr style k tag lhk k uske andr define krdenge isme srf tag or element selector hi hote-->
+
+  <p style="color: red;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum a ipsa natus iusto amet minus, unde debitis, magni, suscipit voluptas laudantium. Placeat, nesciunt molestias 
+    dolore repudiandae earum repellendus. Modi, veritatis.</p>
+
+<h1 style="color:blue;">A Blue Heading</h1>
+
+                                            <!-- inline css end -->
+
+                                            <!-- internal css start -->
+                    <!-- internal css m head k tag k andr style tag use kr uske ander css define krenge -->
+                    <!-- internal css m ap common selector use krte hien jinme ".Class", "#d", "tag name" -->
+
+<!-- tag selector -->
+
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+    Pariatur itaque dolorum quibusdam provident perferendis dignissimos deleniti, voluptatem harum voluptate quam omnis necessitatibus ad numquam. Nemo itaque obcaecati cumque beatae accusamus.</p>
+
+<!-- class selector -->
+
+    <h2 class="heading_2">Internal css</h2>
+
+<!-- id selector -->
+
+    <a id="Home" href="/">Home</a>
+
+     <!-- internal css end -->
+
+                                            <!-- External css -->
+<!-- jo sb se best method h css apply krne k wo external css h jisme html jese css kki bh ak file create krte hien or phr us file ko apne html ki file se link krte hien -->
+<!-- ab link kese hoga head k tag m link k tag use kr k kch is taike se... <link rel="stylesheet" href="yaha apne css ki file k name denge"> -->
+
+<div class="first_container">
+    <p>Lorem ipsum dolor sit amet consectetur </p>
+    <h1 class="heading_01">Heading</h1>
+    <h2 id="heading_02">delectus voluptas, et inventore pariatur esse perspiciatis reprehenderit quia magnam, consequuntur facilis?</h2>
+</div>
+                                            <!-- external css end -->
+</body>
+</html>
