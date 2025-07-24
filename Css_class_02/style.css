@@ -1,21 +1,25 @@
 @font-face {
-font-family: 'my_robo';
-src: url('./Roboto/Roboto-VariableFont_wdth\,wght.ttf');}
+font-family: 'myfont';
+src: url('./fonts/AlfaSlabOne-Regular.ttf');}
 
 
 body{
     
     color: black;
-    font-size: 16px;
-    line-height: 16px;
-    font-weight: 500;
+    font-size: 48px;
+    line-height: 48x;
+    font-weight: lighter;
 }
 
 p {
-    font-family: "my_robo";
+    font-family: "myfont";
     font-weight: bolder;
     font-style: normal;
     font-stretch: expanded;
+}
+.font_link_method{
+color: green;
+font-family: "Cedarville Cursive", cursive;
 }
 
 h1 {
